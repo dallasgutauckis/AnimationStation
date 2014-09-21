@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarSize">52dp</item>
+        <item name="android:actionBarStyle">@style/Widget.Holo.Light.ActionBar.Solid</item>
+    </style>
+
+    <style name="Widget.Holo.Light.ActionBar.Solid" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:titleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="android:windowActionBarOverlay">@null</item>
+    </style>
+
+</resources>
